@@ -1,0 +1,29 @@
+# Prompt 1 – Social Media Content Generation
+## Version 1 (v1.0)
+
+### Prompt
+Write an Instagram post for Flexikitch.
+
+### Change Made
+Basic instruction with no context, Generic post with no clear target or CTA
+
+### Observed Effect
+Low engagement potential and not aligned with business goals
+
+### Lesson Learned
+Prompts must include audience + goal + structure 
+
+
+## Version 2 (v1.1)
+
+### Prompt
+“You are a B2B marketing expert. Write a 100-word Instagram post for Flexikitch targeting cafe owners. Include a hook, 3 benefits (cash flow, flexibility, maintenance), CTA to book consultation, and 5 hashtags.”  
+
+### Change Made
+Added role (B2B strategist) , Added structure (hook, benefits, CTA, hashtags), Added constraints (tone, word limit)
+
+### Observed Effect
+High-quality, usable content, Consistent outputs
+
+### Lesson Learned
+Structured prompts gives reliable outputs  
