@@ -84,7 +84,7 @@ Structured prompts gives reliable outputs
 ### Test date: March 2025
 Sample:5 generated posts
 
-Criteria	            v1.0	v1.2
+## Criteria	            v1.0	v1.2
 Relevance to audience	Low	   High
 Engagement potential	Low	   High
 Structure clarity	    None   Strong
