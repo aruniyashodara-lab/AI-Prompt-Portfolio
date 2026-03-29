@@ -1,0 +1,97 @@
+Prompt Library — Digital Marketing Workflow (Flexikitch)
+
+Assessment 1 | Generative AI for Business
+Student: Aruni Yashodara Ranaweera 
+Business Field: Digital Marketing & Customer Acquisition (Hospitality Equipment – Flexikitch)
+Model tested on: GPT-5.2
+Last updated: March 2026
+
+What This Library Does
+
+This prompt library supports workflow automation in digital marketing and customer acquisition for Flexikitch. It contains 10 documented, tested, and iterated prompts designed to improve lead generation, nurturing, conversion, and retention.
+
+Each prompt follows a structured format including:
+
+Prompt text (initial + improved)
+Workflow task
+Problem solved
+Automation potential
+Risks and limitations
+Version history and testing insights
+
+Folder Structure
+prompt-library/
+│
+├── README.md
+│
+├── 01-lead-generation/
+│   ├── P01-social-media-content.md
+│   ├── P02-ad-copy.md
+│
+├── 02-lead-capture/
+│   ├── P03-lead-qualification.md
+│
+├── 03-lead-response/
+│   ├── P04-first-response-email.md
+│   ├── P05-personalised-reply.md
+│
+├── 04-lead-nurturing/
+│   ├── P06-follow-up-email.md
+│   ├── P07-case-study.md
+│   ├── P08-benefits-explanation.md
+│
+├── 05-conversion/
+│   ├── P09-sales-proposal.md
+│
+├── 06-post-engagement/
+│   ├── P10-review-retention.md
+
+Library Summary Table
+
+| ID  | Prompt Name                | Workflow Stage  | Automation Level | Risk Level  | Status   |
+| --- | -------------------------- | --------------- | ---------------- | ----------- | -------- |
+| P01 | Social media content       | Lead Generation | High             | Medium      | ✅ Tested |
+| P02 | Ad copy                    | Lead Generation | High             | Medium      | ✅ Tested |
+| P03 | Lead qualification         | Lead Capture    | Very High        | Medium      | ✅ Tested |
+| P04 | First response email       | Lead Response   | High             | Medium      | ✅ Tested |
+| P05 | Personalised reply         | Lead Response   | Medium–High      | High        | ✅ Tested |
+| P06 | Follow-up email            | Lead Nurturing  | High             | Medium      | ✅ Tested |
+| P07 | Case study                 | Lead Nurturing  | Medium–High      | Medium–High | ✅ Tested |
+| P08 | Benefits explanation       | Lead Nurturing  | High             | Medium      | ✅ Tested |
+| P09 | Sales proposal             | Conversion      | Medium–High      | Medium–High | ✅ Tested |
+| P10 | Review & retention message | Post-Engagement | High             | Medium      | ✅ Tested |
+
+Prompt Chaining Map
+
+LEAD GENERATION → CONVERSION FLOW
+
+P01 (Social Content)
+→ P02 (Ad Copy)
+→ P03 (Lead Qualification)
+→ P04 (First Response Email)
+→ P05 (Personalised Reply)
+→ P06 (Follow-up Email)
+→ P07 (Case Study)
+→ P08 (Benefits Explanation)
+→ P09 (Sales Proposal)
+→ P10 (Review & Retention)
+
+Prompting Strategies Used
+| Strategy                                         | Applied In    | Why Chosen                               |
+| ------------------------------------------------ | ------------- | ---------------------------------------- |
+| RACE Framework (Role–Action–Context–Expectation) | All prompts   | Ensures structured, high-quality outputs |
+| Word/format constraints                          | All prompts   | Keeps outputs concise and usable         |
+| Audience targeting                               | All prompts   | Improves relevance and conversion        |
+| Structured outputs                               | P07, P08, P09 | Improves clarity and usability           |
+| Context grounding                                | P03, P05      | Reduces generic responses                |
+| Iterative refinement                             | All prompts   | Improves performance over time           |
+
+Iteration Evidence
+
+Prompt	Version	Key Improvement
+P01	v1.0 → v1.2	Added audience + structure + CTA
+P03	v1.0 → v1.2	Added scoring logic + qualification criteria
+P04	v1.0 → v1.2	Added tone + CTA + personalisation
+P06	v1.0 → v1.2	Added timing + persuasion + structure
+P09	v1.0 → v1.2	Added proposal structure
+P10	v1.0 → v1.2	Added relationship tone + referral
