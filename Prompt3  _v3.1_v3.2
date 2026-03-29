@@ -5,7 +5,21 @@ P03 Lead Qualification Analysis
 ## Version 1 (v3.1)
 
 ### Prompt
-Generic instruction with no structure and unclear, inconsistent lead analysis
+Analyse this lead.
+
+Respond 
+
+I can do that—but I’ll need the lead details first.
+
+Send me the lead information (for example: message, business type, budget, needs, timeline, or any conversation you’ve had), and I’ll analyse it for you, including:
+
+* Customer intent level
+* Key needs and pain points
+* Buying readiness
+* Recommended next step
+* How to respond strategically
+
+
 
 ### Change Made
 Initial version
@@ -21,6 +35,18 @@ Prompts must include clear classification criteria
 
 ### Prompt
 You are a B2B sales analyst and classify this lead: business type, stage (startup/scaling/established), conversion likelihood (Low/Medium/High), and next action. Input: [LEAD_TEXT]. Output JSON only.
+
+Respond 
+```json
+{
+  "lead_text": "Hi, I run a small café that’s been open for about a year. We’re getting more customers lately, but our equipment is outdated and slowing us down. I’m interested in upgrading but don’t want to spend a large amount upfront. Do you offer flexible payment options?",
+  "business_type": "Café (Hospitality)",
+  "stage": "Scaling",
+  "conversion_likelihood": "High",
+  "next_action": "Schedule a consultation to understand equipment needs, present a tailored Flexikitch rent-to-own solution, and highlight cash flow and upgrade flexibility benefits."
+}
+```
+
 
 ### Change Made
 Added role (B2B analyst), defined classification categories and enforced JSON output
